@@ -22,6 +22,21 @@ You can also use this command:
 composer require montesilva/laravel-search-sort
 ```
 
+
+## Laravel 8 Support
+
+For Laravel 8 ```config/database.php``` must be changed.
+
+In ```config/database.php```, set mysql's ```'strict'``` to ```false```.
+
+```php
+'mysql' => [
+    ...
+    'strict' => false,
+    ...
+],
+```
+
 # Usage
 
 Add the trait to your model and add your search and/or sort rules.
