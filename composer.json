@@ -1,0 +1,27 @@
+{
+    "name": "montesilva/laravel-search-sort",
+    "description": "Eloquent model search and sort trait.",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "sort", "sortable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Monte da Silva",
+            "email": "dev.robin96@gmail.com"
+        },
+        {
+            "name": "Nicolas Lopez",
+            "email": "nicolaslopezj@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/database": ">=v8.40.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "montesilva\\LaravelSearchSort\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
