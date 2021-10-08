@@ -27,7 +27,7 @@ composer require montesilva/laravel-search-sort
 Add the trait to your model and add your search and/or sort rules.
 
 ```php
-use montesilva\LaravelSearchSort\SearchSortTrait;
+use Montesilva\LaravelSearchSort\SearchSortTrait;
 
 class User extends \Eloquent
 {
