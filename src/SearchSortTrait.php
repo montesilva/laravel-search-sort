@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 /**
  * Trait SearchSortTrait
- * @package montesilva\LaravelSearchSort
+ * @package Montesilva\LaravelSearchSort
  * @property array $search_sort
  * @property string $table
  * @property string $primaryKey
