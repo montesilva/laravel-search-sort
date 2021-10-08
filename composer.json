@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "montesilva\\LaravelSearchSort\\": "src/"
+            "Montesilva\\LaravelSearchSort\\": "src/"
         }
     },
     "minimum-stability": "stable"

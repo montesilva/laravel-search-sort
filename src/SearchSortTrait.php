@@ -1,4 +1,4 @@
-<?php namespace montesilva\LaravelSearchSort;
+<?php namespace Montesilva\LaravelSearchSort;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
